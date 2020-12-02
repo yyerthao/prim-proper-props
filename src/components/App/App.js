@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from '../Header/Header';
 
 class App extends Component {
   state = {
@@ -37,9 +38,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <h1>Prim Proper Props</h1>
-        </header>
+        <Header/>
         <h2>Party Leader</h2>
         {this.state.guestList[0] && <h3>{this.state.guestList[0].name}</h3>}
         <h2>Add a new guest</h2>
