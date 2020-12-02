@@ -11,7 +11,7 @@ Create the new components in the following order (increasing level of difficulty
 1. [x] Header
 2. [x] Footer
 3. [x] Guest List
-4. [] Dinner Supplies
+4. [x] Dinner Supplies
 5. [] Guest Form
 
 The application should still work the same way. Here is what `App.js` `render` method should look like when the refactor is complete:
@@ -85,3 +85,10 @@ Allow the user to remove a guest from the list by adding a `Delete` button to te
 ### Create a Guest Component
 
 Create a `Guest` component that is the `<tr>` of the table and pass props accordingly.
+
+
+
+
+### NOTES:
+// mapping is returning an array
+// 
